@@ -26,4 +26,10 @@ export default {
  2、后台启动类
  com.example.DemoApplication
  
+![longin.png](https://raw.githubusercontent.com/QIWEB/linuxServerMonitoring/master/image/longin.png) 
+![faban](https://raw.githubusercontent.com/QIWEB/linuxServerMonitoring/master/image/faban.png) 
+![yinyongfuwuqi.png](https://raw.githubusercontent.com/QIWEB/linuxServerMonitoring/master/image/yinyongfuwuqi.png) 
+![serverinfo.png](https://raw.githubusercontent.com/QIWEB/linuxServerMonitoring/master/image/serverinfo.png) 
+![jincheng.png](https://raw.githubusercontent.com/QIWEB/linuxServerMonitoring/master/image/jincheng.png) 
+ 
  

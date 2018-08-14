@@ -269,7 +269,10 @@
         this.$post(this.$axiosURL.getServerDetails(),params)
           .then((response) => {
             if (response.success == true) {
+                //console.log(response.data);
+                console.log("返回数据："+JSON.stringify(response.data));
               _this.serverDetails = response.data;//把后台返回的json对象直接存储到serverDetails对象
+
               //console.log('ip:' + _this.sd.ip)
             }
           }).catch(function (error) {
@@ -289,6 +292,8 @@
         })
       },
       axiosHttp_data_click:function () {//点击查询按钮加载的曲线图
+         this.axiosHttp_getServerDetails()
+         this.axiosHttp_getServiceProcess()
         let _this = this//存储当前vue对象
         //处理转换日期为字符串 格式：2018-06-20
         this.YTD=this.YTD==null?new Date():this.YTD;

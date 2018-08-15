@@ -37,7 +37,17 @@ npm run dev
 A 配置文件中修改mongodb数据库连接
 B 运行单元测试 初始化数据 
 service-monitoring\src\test\java\com\example\demo\DemoApplicationTests.java
+手动打开mongodb新建一个集合
+Collection('userEntity')
+并新增一条用户：
+{
+    "_id" : NumberLong(4),
+    "userName" : "qiweb",
+    "passWord" : "qiweb",
+    "_class" : "com.example.demo.UserEntity"
+}
 C 运行启动类
+
 
  com.example.DemoApplication
  

@@ -61,5 +61,12 @@ C 运行启动类
 ![serverinfo.png](https://raw.githubusercontent.com/QIWEB/linuxServerMonitoring/master/image/serverinfo.png) 
 ![jincheng.png](https://raw.githubusercontent.com/QIWEB/linuxServerMonitoring/master/image/jincheng.png) 
  
- 
+## 5、发布项目到ｌｉｎｕｘ服务器
+### 前台编译
+ｃｍｄ到db-service-monitoring执行
+npm run build
+得到ｄｉｓｔ就是编译后的前台系统文件
+### 后台编译
+mvn clean package
+获得一个ｗａｒ包
 ## 技术讨论QQ微信 908701702

@@ -26,6 +26,13 @@ npm run dev
     rootDirectory: function () { // 请求接口的根路径
       return 'http://192.168.0.26:9999'
     },
+    
+修改访问地址和端口号：
+打开文件db-service-monitoring\config\index.js
+
+ host: '192.168.0.26', // can be overwritten by process.env.HOST
+    port: 8082, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
+    autoOpenBrowser: false,
 ### F 启动后显示如下信息
  DONE  Compiled successfully in 16239ms                                                                                                                         16:44:38
 
